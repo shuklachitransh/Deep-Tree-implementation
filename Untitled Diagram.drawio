@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net" modified="2024-06-30T14:02:40.011Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="24.6.4" etag="18AHjWcdueXPr63Kr6lP" type="github">
+  <diagram name="Page-1" id="eG_4LUAFMdfCkiQUjJmI">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="User Authentication" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="205" width="158" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="JWT token generation and validation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="102" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Sub-Domain Booking Page" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="102" width="199" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="System generates a custom sub-domain for the booking page" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="204" y="204" width="451" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="User signs up or logs in" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=0.99;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="User creates a booking page" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.8;exitY=0.99;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="429" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
